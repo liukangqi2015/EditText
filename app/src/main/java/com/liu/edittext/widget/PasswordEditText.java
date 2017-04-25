@@ -38,7 +38,7 @@ public class PasswordEditText extends AppCompatEditText {
 
 
     public PasswordEditText(Context context) {
-        super(context);
+        this(context,null);
     }
 
     public PasswordEditText(Context context, AttributeSet attrs) {
